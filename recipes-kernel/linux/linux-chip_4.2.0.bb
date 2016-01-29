@@ -23,6 +23,7 @@ KERNEL_EXTRA_ARGS += "LOADADDR=${UBOOT_ENTRYPOINT}"
 SRC_URI = " \
     git://github.com/nextthingco/chip-linux.git;protocol=git;branch=chip/stable \
     file://defconfig \
+    file://usb_gadget.patch \
     "
 
 SRCREV = "fd2ad2582c7fb4a5fedff5ac19ca37d138df3963"
